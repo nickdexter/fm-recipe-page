@@ -25,6 +25,12 @@ img {
     border-radius: 15px;
 }
 
+p,
+li,
+td {
+    color: var(--wenge-brown);
+}
+
 h1,
 h2 {
     font-family: "Young Serif", serif;
@@ -45,6 +51,10 @@ li {
 }
 
 li::marker {
+    font-weight: bold;
+}
+
+li::marker {
     color: var(--nutmeg);
 }
 
@@ -56,7 +66,7 @@ td {
     border-bottom: 1px solid var(--light-grey);
 }
 
-tr:last-child>td {
+tr:last-child > td {
     border-bottom: 0;
 }
 
@@ -71,10 +81,11 @@ hr {
 
 .wrapper {
     background-color: var(--wht);
-    margin: auto;
+    margin-inline: auto;
+    margin-block: 100px;
     padding: 40px;
-    width: 650px;
-    border-radius: 30px;
+    max-width: 650px;
+    border-radius: 25px;
 }
 
 .highlight {
@@ -87,4 +98,21 @@ hr {
     color: var(--dark-raspberry);
     font-family: "Outfit", sans-serif;
     font-weight: 700;
+}
+
+@media (max-width: 375px) {
+
+    body {
+        margin: 0;
+    }
+
+    .wrapper {
+        margin: 0;
+        padding: 30px;
+        border-radius: 0;
+    }
+
+    img {
+        border-radius: 0;
+    }
 }
