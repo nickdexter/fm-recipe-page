@@ -16,4 +16,4 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ![](./screenshot.png)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://nickdexter.github.io/fm-recipe-page/)
